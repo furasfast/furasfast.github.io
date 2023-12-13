@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico&display=swap);
+
+body{
+    font-family: Pacifico, serif;
+    background: linear-gradient(135deg, #284fc3 0%, #a9f505 100%);
+}
+
+
+
+
+.bg-video{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    position: relative;
+}
+
+.bg-video video{
+    width: 100%;
+    position: absolute;
+    height: 70vh;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.video-text{
+    color: pink;
+    z-index: 2;
+}
+
+
+
+.nav-item{
+    
+    color: red;
+    font-size: 1.5rem;
+}
+.nav-link{  
+    color: rgb(255, 0, 0);
+    font-style: italic;
+}
+
+#Hrz{
+    background-color: rgb(60, 49, 49);
+}
+
+.Silikatkas{
+    font-style: bold;
+    color:fuchsia;
+}
+.Silikatkas a{
+    text-decoration: none;
+    color:black;
+}
+.Silikatkas p{
+    background: linear-gradient(0deg, #bb00ff 0%, #a94242 100%);
+
+}
+.card{
+    background: linear-gradient(0deg, #42f5bf 0%, #000000 100%);
+}
+.backache{
+    background-color: #000000;
+}
+.acuamarine{
+    color: aquamarine;
+    margin: auto auto;
+}
+.Machinehead{
+    background-color: #a94242;
+}
+footer{
+    border-top: #000000;
+    border-style: solid;
+}
+
+.vibro-tamir{
+    animation: myAnim 0.3s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}

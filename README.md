@@ -1,1 +1,0 @@
-# furasfast.github.io
